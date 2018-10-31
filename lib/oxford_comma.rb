@@ -4,6 +4,6 @@ if array.length == 1
 elsif array.length == 2 
 array.join(" and ")
 else array.join(", ") << "and"
-  array[length-1]
+  array[array.length-1]
 end
 end
